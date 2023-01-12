@@ -9,7 +9,38 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        <header>
+            <div class="container-fluid h-100 d-flex justify-content-between">
+                <div class="d-flex gap-2 h-100 align-items-center">
+                    <img src="img/Logo.png" alt="">
+                    <h1 class="fw-bolder">Campo Minato</h1>
+                </div>
+                <form action="" class="d-flex justify-content-between align-items-center gap-2" id="difficulty-form">
+                    <label for="select">Difficoltà:</label>
+                    <select name="select" id="select">
+                        <option value="easy">Facile</option>
+                        <option value="medium">Medio</option>
+                        <option value="hard">Difficile</option>
+                    </select>
+                    <button id="submit" class="btn">Play</button>
+                </form>
+            </div>
+        </header>
+
+        <main>
+            <div class="container d-flex align-items-center">
+                <div class="grid d-flex flex-wrap align-content-start" id="grid">    
+                </div>
+            </div>
+        </main>
         
+        <footer>
+            <div class="container-fluid h-100 d-flex align-items-center">
+                <div>Made with &hearts; by
+                    <a href="https://github.com/Step1017" target="_blank">Step</a>
+                </div>
+            </div>
+        </footer>
         <script type="text/javascript" src="js/script.js"></script>
     </body>
 </html>
